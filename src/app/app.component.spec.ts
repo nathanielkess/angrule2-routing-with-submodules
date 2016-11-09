@@ -1,3 +1,6 @@
+import { RouterModule } from '@angular/router';
+import { RouterTestingModule } from '@angular/router/testing';
+
 /* tslint:disable:no-unused-variable */
 
 import { TestBed, async } from '@angular/core/testing';
@@ -8,7 +11,10 @@ describe('App: RouterTests', () => {
     TestBed.configureTestingModule({
       declarations: [
         AppComponent
-      ],
+      ], 
+      imports:[
+        RouterTestingModule
+      ]
     });
   });
 
